@@ -9,8 +9,7 @@
 # Below 60: F
 # Get the student's score as input
 score = float(input("Enter the student's score: "))
-
-# Determine the letter grade
+#Determine the letter grade
 if score >= 90:
     grade = 'A'
 elif score >= 80:
