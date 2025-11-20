@@ -29,4 +29,13 @@
 # 4 - 6 = -2
 
 # Write your code here:
+int_number1= int(input("please type in number 1:"))
+int_number2= int(input("please type in number 2:"))
+operation = input ("please type in an operation ((add, multiply , subtract):")
+if operation == "add":
+    print(int_number1, "+", int_number2, "=", int_number1 + int_number2)
+elif operation == "multiply":
+    print(int_number1, "*", int_number2, "=", int_number1 * int_number2)
+elif operation == "subtract":
+    print(int_number1, "-", int_number2, "=", int_number1 - int_number2)
 

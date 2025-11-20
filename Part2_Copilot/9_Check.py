@@ -17,4 +17,12 @@
 # That must be a mistake
 
 # Write your code here:
+age = int(input("what is your age?"))
+if age < 0:
+    print("I haven't had enough coffee to deal with time travel yet")
+elif age < 5:
+    print(" The human head weighs 8 pounds")
+else:
+    print("ok, you're", age, "years old")
+    
 
