@@ -1,0 +1,8 @@
+age = int(input("type your age"))
+if age>=18 and age<100:
+    print("you are an adut")
+elif age >=100:
+    print("JESUS CHRIST")
+elif age <0:
+    print("bro go back to the womb")
+else: print("you are a child")

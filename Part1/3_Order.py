@@ -25,4 +25,9 @@
 # Thank you!
 
 # Write your code here:
-
+int_number = int(input("please type in a number:"))
+if int_number < 1000:
+    print("This number is smaller than 1000")
+    if int_number < 100:
+        print("This number is smaler than 100")
+        
